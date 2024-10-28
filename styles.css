@@ -1,10 +1,9 @@
 #menu ul {
+    margin-left: 35%;
+    margin-right: 35%;
     background-color: transparent;
     list-style:none;
     display: flex;
-    margin-bottom: 50%;
-    margin-left: 35%;
-    margin-right: 35%;
 }
 
 #menu ul li{
@@ -53,6 +52,32 @@
     background-color: #0e2e23;
 }
 
+#texto{
+    text-align: center;
+    font-size: 25px;
+    color: limegreen;
+    font-weight: bold;
+    font-family: Arial;
+    transition: all 0.5s ease;
+}
+
+.texto1{
+    max-width: 60%;
+    align-items: center;
+    text-align: justify;
+    background: linear-gradient(90deg, #7FFFD4,white);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-bottom: 28%;
+}
+
+h1{
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    background-color: #3B5555;  
+}
 .rodape {
-    margin-top: 100%;
+    margin-top: 50%;
 }
